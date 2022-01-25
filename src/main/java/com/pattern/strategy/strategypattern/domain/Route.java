@@ -5,6 +5,4 @@ public interface Route {
     String executeSearch();
 
     RouteName getRouteName();
-
-
 }

@@ -7,6 +7,7 @@ public class DriveRoute implements Route{
 
     @Override
     public String executeSearch() {
+        // 운전과 관련한 알고리즘 적용
         return "DriveRoute";
     }
 

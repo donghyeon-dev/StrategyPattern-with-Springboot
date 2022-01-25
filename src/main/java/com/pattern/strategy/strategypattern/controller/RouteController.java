@@ -17,4 +17,13 @@ public class RouteController {
     public String getRoute(@RequestBody RouteInput request) {
         return routeService.getRoute(request);
     }
+    /**
+    ### WalkRoute  .http 테스트
+    GET http://localhost:8080/route
+    Content-Type: application/json
+
+    {
+        "strategy" : "walk"
+    }
+     */
 }
